@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:id="@+id/rl1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+    <TextView
+        android:id="@+id/TvcallNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Mobile Number : "
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/callNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:id="@+id/TvcallType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Call Type : "
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/callType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl2"
+        android:padding="3dp">
+        <TextView
+            android:id="@+id/TvcallDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Date_Time : "
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/callDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl3"
+        android:padding="3dp">
+        <TextView
+            android:id="@+id/TvcallDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Duration : "
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/callDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
